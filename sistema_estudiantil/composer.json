@@ -1,0 +1,10 @@
+{
+  "name": "dhs/access-control",
+  "description": "Sistema de Control de Acceso DHS",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "ext-mysqli": "*",
+    "ext-json": "*"
+  }
+}
