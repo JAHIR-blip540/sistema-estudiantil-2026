@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Guacamaya roja</title>
+  <desc id="desc">Emblema estilizado de una guacamaya roja adaptado al carnet estudiantil</desc>
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4b3e"/>
+      <stop offset="1" stop-color="#b80f1f"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38c8ef"/>
+      <stop offset="1" stop-color="#0576c9"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(7 5)">
+    <!-- cola -->
+    <path d="M64 69 C67 82 70 96 63 109 C57 97 53 85 50 74 Z" fill="#0b72bd"/>
+    <path d="M69 70 C78 84 82 96 77 108 C68 96 62 86 57 75 Z" fill="#f5c84c"/>
+    <!-- cuerpo -->
+    <path d="M42 40 C55 30 77 35 84 51 C91 66 85 88 69 95 C53 102 37 89 36 72 C35 58 35 47 42 40 Z" fill="url(#red)" stroke="#07111f" stroke-width="3"/>
+    <!-- ala -->
+    <path d="M51 54 C67 51 81 58 82 73 C77 69 73 69 69 72 C74 77 74 84 72 90 C61 88 51 82 47 73 C44 67 46 59 51 54 Z" fill="#f5c84c" stroke="#07111f" stroke-width="2"/>
+    <path d="M56 59 C68 58 76 62 78 69 C71 66 64 67 59 72 C66 75 69 80 69 85 C58 82 51 76 49 69 C48 65 51 61 56 59 Z" fill="url(#blue)"/>
+    <!-- cuello/cabeza -->
+    <path d="M42 43 C36 33 38 20 48 13 C58 6 73 9 80 20 C85 28 82 40 73 46 C63 52 49 50 42 43 Z" fill="url(#red)" stroke="#07111f" stroke-width="3"/>
+    <!-- cara blanca -->
+    <path d="M56 15 C66 11 76 17 77 26 C78 34 72 40 63 41 C57 42 51 38 50 33 C49 28 51 20 56 15 Z" fill="#f7fbff" stroke="#d7ecf6" stroke-width="1.5"/>
+    <!-- ojo -->
+    <circle cx="65" cy="24" r="3" fill="#07111f"/>
+    <circle cx="64.2" cy="23.2" r="0.8" fill="#fff"/>
+    <!-- pico -->
+    <path d="M76 25 C90 23 95 28 92 34 C89 40 81 43 73 40 C78 36 80 31 76 25 Z" fill="#f0d7a8" stroke="#07111f" stroke-width="2.3"/>
+    <path d="M82 34 C88 34 92 36 91 40 C90 45 84 47 78 44 C82 42 84 39 82 34 Z" fill="#111820"/>
+    <!-- pecho -->
+    <path d="M43 48 C48 44 53 42 58 42 C54 49 54 58 58 67 C51 66 45 62 41 57 Z" fill="#ef2737"/>
+    <!-- patas/silueta discreta -->
+    <path d="M55 94 C55 100 53 103 50 106 M64 95 C65 100 64 103 61 106" fill="none" stroke="#f5c84c" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+</svg>
